@@ -1,0 +1,24 @@
+{
+  "dataset_rows_used": 1488,
+  "test_size": 0.2,
+  "random_state": 42,
+  "best_model": "xgboost",
+  "tuning": {
+    "linear_regression": null,
+    "decision_tree": null,
+    "gradient_boosting": null,
+    "random_forest": {
+      "model__regressor__n_estimators": 120,
+      "model__regressor__min_samples_split": 10,
+      "model__regressor__min_samples_leaf": 1,
+      "model__regressor__max_depth": 18
+    },
+    "xgboost": {
+      "model__regressor__subsample": 0.9,
+      "model__regressor__n_estimators": 240,
+      "model__regressor__max_depth": 4,
+      "model__regressor__learning_rate": 0.08,
+      "model__regressor__colsample_bytree": 0.8
+    }
+  }
+}

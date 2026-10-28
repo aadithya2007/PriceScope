@@ -1,0 +1,122 @@
+PriceScope Stage 2 EDA Summary
+==================================
+Dataset shape: 464 rows x 35 columns
+
+Dtypes:
+laptop_id                  str
+brand                      str
+model_name                 str
+processor_brand            str
+processor_model            str
+processor_gen            int64
+ram_gb                 float64
+storage_type               str
+storage_gb             float64
+gpu_brand                  str
+gpu_model                  str
+gpu_vram_gb            float64
+display_size_inch      float64
+display_resolution         str
+refresh_rate_hz        float64
+os                         str
+weight_kg              float64
+battery_wh             float64
+price_inr              float64
+mrp_inr                float64
+discount_pct           float64
+retailer                   str
+product_url                str
+rating                 float64
+rating_count           float64
+scrape_date                str
+source_platform        float64
+has_dedicated_gpu          str
+gpu_tier                   str
+ram_tier                   str
+storage_tier               str
+configuration              str
+processor_tier         float64
+spec_score             float64
+price_band            category
+
+Missing values by column:
+source_platform       464
+mrp_inr                84
+discount_pct           84
+battery_wh             67
+rating                 43
+rating_count           43
+weight_kg              33
+model_name              0
+brand                   0
+laptop_id               0
+processor_brand         0
+gpu_model               0
+gpu_brand               0
+gpu_vram_gb             0
+processor_model         0
+storage_type            0
+storage_gb              0
+processor_gen           0
+ram_gb                  0
+price_inr               0
+os                      0
+display_resolution      0
+refresh_rate_hz         0
+display_size_inch       0
+retailer                0
+product_url             0
+scrape_date             0
+has_dedicated_gpu       0
+gpu_tier                0
+ram_tier                0
+storage_tier            0
+configuration           0
+processor_tier          0
+spec_score              0
+price_band              0
+
+Numeric describe:
+       processor_gen  ram_gb  storage_gb  gpu_vram_gb  display_size_inch  refresh_rate_hz  weight_kg  battery_wh  price_inr    mrp_inr  discount_pct  rating  rating_count  source_platform  processor_tier  spec_score
+count         464.00  464.00      464.00       464.00             464.00           464.00     431.00      397.00     464.00     380.00        380.00  421.00        421.00              0.0          464.00      464.00
+mean            8.85   25.44      855.72         2.70              15.15            98.23       1.94       52.71   64538.15   78362.37         16.75    4.18        763.83              NaN            2.91       35.09
+std             3.71   21.57      544.23         4.59               1.29            53.99       0.48       11.56   12349.39   17007.48          8.05    0.50        769.42              NaN            0.85       17.35
+min             1.00    4.00      256.00         0.00              13.30            60.00       1.04       30.00   35000.00   45100.00          2.00    2.30          5.00              NaN            1.00        3.87
+25%             5.75    8.00      512.00         0.00              14.00            60.00       1.50       44.00   55900.00   66500.00          9.80    3.90        189.00              NaN            2.40       21.29
+50%             7.00   16.00      512.00         0.00              15.60            60.00       1.93       52.00   63400.00   76600.00         17.60    4.30        506.00              NaN            3.00       32.51
+75%            12.00   32.00     1024.00         4.50              16.10           144.00       2.36       60.30   71825.00   88400.00         23.60    4.60       1049.00              NaN            3.56       47.32
+max            14.00   64.00     2048.00        16.00              17.30           240.00       3.13       89.40  106200.00  140600.00         29.90    5.00       4370.00              NaN            4.54       94.46
+
+Brand balance:
+brand
+Lenovo     92
+HP         87
+Dell       80
+Asus       64
+Acer       49
+Apple      25
+Samsung    20
+MSI        19
+Infinix    16
+Realme     12
+
+Retailer balance:
+retailer
+Flipkart            107
+Comparison           97
+Reliance Digital     91
+Amazon               88
+Croma                81
+
+Top configurations:
+configuration
+16GB RAM + 512GB SSD + Integrated     15
+16GB RAM + 1024GB SSD + Integrated    15
+4GB RAM + 512GB SSD + Integrated      13
+8GB RAM + 512GB SSD + Integrated      11
+8GB RAM + 256GB SSD + Integrated      11
+32GB RAM + 512GB SSD + Integrated     10
+16GB RAM + 256GB SSD + Integrated     10
+4GB RAM + 1024GB HDD + Integrated     10
+64GB RAM + 512GB HDD + Integrated     10
+4GB RAM + 2048GB SSD + Integrated     10

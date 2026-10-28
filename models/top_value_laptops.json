@@ -1,0 +1,102 @@
+[
+  {
+    "brand": "Infinix",
+    "model_name": "Infinix INBook X2 5",
+    "retailer": "comparison",
+    "actual_price": 18000.0,
+    "predicted_fair_price": 28167.359375,
+    "value_gap_pct": 36.1,
+    "value_label": "Excellent Value",
+    "product_url": "https://www.comparison.in/dp/84E34FF899"
+  },
+  {
+    "brand": "Acer",
+    "model_name": "Acer Swift 10",
+    "retailer": "reliance_digital",
+    "actual_price": 34800.0,
+    "predicted_fair_price": 45987.25,
+    "value_gap_pct": 24.33,
+    "value_label": "Excellent Value",
+    "product_url": "https://www.reliancedigital.in/dp/C61F210A7F"
+  },
+  {
+    "brand": "HP",
+    "model_name": "HP Pavilion 8",
+    "retailer": "flipkart",
+    "actual_price": 51800.0,
+    "predicted_fair_price": 68089.6015625,
+    "value_gap_pct": 23.92,
+    "value_label": "Excellent Value",
+    "product_url": "https://www.flipkart.in/dp/19BF7D9DBC"
+  },
+  {
+    "brand": "Infinix",
+    "model_name": "Infinix ZeroBook 13",
+    "retailer": "croma",
+    "actual_price": 22700.0,
+    "predicted_fair_price": 29524.029296875,
+    "value_gap_pct": 23.11,
+    "value_label": "Excellent Value",
+    "product_url": "https://www.croma.in/dp/9BC14F6844"
+  },
+  {
+    "brand": "Acer",
+    "model_name": "Acer Predator 10",
+    "retailer": "reliance_digital",
+    "actual_price": 32200.0,
+    "predicted_fair_price": 39482.12109375,
+    "value_gap_pct": 18.44,
+    "value_label": "Excellent Value",
+    "product_url": "https://www.reliancedigital.in/dp/832334D020"
+  },
+  {
+    "brand": "Acer",
+    "model_name": "Acer Predator 8",
+    "retailer": "comparison",
+    "actual_price": 51000.0,
+    "predicted_fair_price": 62190.30859375,
+    "value_gap_pct": 17.99,
+    "value_label": "Excellent Value",
+    "product_url": "https://www.comparison.in/dp/FEC9278D28"
+  },
+  {
+    "brand": "Asus",
+    "model_name": "Asus ExpertBook 3",
+    "retailer": "comparison",
+    "actual_price": 27800.0,
+    "predicted_fair_price": 33423.890625,
+    "value_gap_pct": 16.83,
+    "value_label": "Excellent Value",
+    "product_url": "https://www.comparison.in/dp/3D5821CC06"
+  },
+  {
+    "brand": "Apple",
+    "model_name": "Apple MacBook Air 2",
+    "retailer": "flipkart",
+    "actual_price": 139500.0,
+    "predicted_fair_price": 166939.46875,
+    "value_gap_pct": 16.44,
+    "value_label": "Excellent Value",
+    "product_url": "https://www.flipkart.in/dp/14BF5D666E"
+  },
+  {
+    "brand": "HP",
+    "model_name": "HP EliteBook 12",
+    "retailer": "flipkart",
+    "actual_price": 38500.0,
+    "predicted_fair_price": 45880.5390625,
+    "value_gap_pct": 16.09,
+    "value_label": "Excellent Value",
+    "product_url": "https://www.flipkart.in/dp/E82352286A"
+  },
+  {
+    "brand": "Acer",
+    "model_name": "Acer Aspire 3",
+    "retailer": "flipkart",
+    "actual_price": 62900.0,
+    "predicted_fair_price": 74850.9609375,
+    "value_gap_pct": 15.97,
+    "value_label": "Excellent Value",
+    "product_url": "https://www.flipkart.in/dp/CAFD6F10B5"
+  }
+]
